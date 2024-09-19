@@ -1,5 +1,5 @@
 [package]
-name = "qoi2png"
+name = "imgconvert"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,7 +7,6 @@ edition = "2021"
 anyhow = "1.0.89"
 clap = { version = "4.5.17", features = ["derive"] }
 image = "0.25.2"
-thiserror = "1.0.63"
 
 [profile.release]
 lto = true
