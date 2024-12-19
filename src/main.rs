@@ -13,3 +13,4 @@ fn main() -> anyhow::Result<()> {
     ImageReader::open(args.input)?.decode()?.save(args.output)?;
     Ok(())
 }
+
